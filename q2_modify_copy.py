@@ -69,7 +69,7 @@ else:
         x = list(range(len(subtimes)))
         plt.plot(x, subtimes)
     legends.append('MergeSort')
-    legends.append('InvertionSort')
+    legends.append('InsertionSort')
     plt.xlabel('n')
     plt.ylabel('Time (100 runs)')
     plt.legend(legends)
